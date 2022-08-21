@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="img/m.png">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="style.css">
+  <title>website</title>
+</head>
+
+<body>
+  <!--navbar with responsive device-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#"><img src="img/mlogo.png" alt="logo">LoGo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarnav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#price">PRICE PLANS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <!--slider-->
+  <section id="showcase" class="bg-dark">
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+        <li data-slide-to="1" data-target="#mycarousel"></li>
+        <li data-slide-to="2" data-target="#mycarousel"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-img-1 active">
+          <div class="container">
+            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+              <h2 class="display-4">Heading One</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum ipsa voluptate maxime obcaecati repellat velit vel suscipit accusantium ab.</p>
+              <a href="#" class="btn btn-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-img-2">
+          <div class="container">
+            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+              <h2 class="display-4">Heading Two</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum ipsa voluptate maxime obcaecati repellat velit vel suscipit accusantium ab.</p>
+              <a href="#" class="btn btn-warning">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-img-3">
+          <div class="container">
+            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+              <h2 class="display-4">Heading There</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum ipsa voluptate maxime obcaecati repellat velit vel suscipit accusantium ab.</p>
+              <a class="btn btn-primary" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#mycarousel" class="carousel-control-prev" data-slide=prev>
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#mycarousel" class="carousel-control-next" data-slide=next>
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!--about-->
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis rem adipisci quo at repellendus sint numquam dignissimos alias ad nihil earum, labore atque inventore in expedita mollitia explicabo repudiandae, dicta obcaecati. Magnam quas tempore, sit obcaecati atque ratione, esse placeat!</p>
+          <button class="btn btn-primary mt-2">Read More >></button>
+        </div>
+        <div class="col-md-6 pt-3">
+          <p>Adobe Photoshop</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%">80%</div>
+          </div>
+          <p>UI Design</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%">85%</div>
+          </div>
+          <p>Wordpress</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%">75%</div>
+          </div>
+          <p>Graphics Design</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--services-->
+<section id="services" class="py-5">
+  <div class="container text-center">
+    <h1>Our Services</h1>
+    <div class="row mt-3">
+      <div class="col-md-3">
+        <i class="fa fa-desktop"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores explicabo officia sint exercitationem, inventore expedita.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="fa fa-tablet"></i>
+        <h3>App Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores explicabo officia sint exercitationem, inventore expedita.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="fa fa-line-chart"></i>
+        <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores explicabo officia sint exercitationem, inventore expedita.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="fa fa-paint-brush"></i>
+        <h3>Graphics Designing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores explicabo officia sint exercitationem, inventore expedita.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--team member-->
+
+<section id="team" class="py-5">
+  <div class="container">
+    <h1 class="pb-3 text-center">Our Team</h1>
+    <div class="row">
+      <div class="col-md-3 profile-pic text-center">
+        <div class="img-box ">
+          <img class="img-fluid" src="img/person1.jpg" alt="img1">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa fa-facebook"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-twitter"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <h2>Eliana Daved</h2>
+        <h3>Founder / CEO</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, similique.</p>
+      </div>
+      <div class="col-md-3 profile-pic text-center">
+        <div class="img-box ">
+          <img class="img-fluid" src="img/person2.jpg" alt="img1">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa fa-facebook"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-twitter"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <h2>Emi Jakson</h2>
+        <h3>Bussniss Head</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, similique.</p>
+      </div>
+      <div class="col-md-3 profile-pic text-center">
+        <div class="img-box ">
+          <img class="img-fluid" src="img/person3.jpg" alt="img1">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa fa-facebook"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-twitter"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <h2>William Watto</h2>
+        <h3>Marketing Head</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, similique.</p>
+      </div>
+      <div class="col-md-3 profile-pic text-center">
+        <div class="img-box ">
+          <img class="img-fluid" src="img/person4.jpg" alt="img1">
+          <ul>
+            <a href="#">
+              <li>
+                <i class="fa fa-facebook"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-twitter"></i>
+              </li>
+            </a>
+            <a href="#">
+              <li>
+                <i class="fa fa-linkedin"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <h2>Mical John</h2>
+        <h3>UI Designer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, similique.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--promo-->
+<section id="promo">
+  <div class="container">
+    <p>Get Free Domain Name and Web Hosting</p>
+    <a href="#contact" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
+
+<!--price plans-->
+<section id="price" class="py-5">
+  <div class="container">
+    <h1 class="text-center">Price Plans</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Free</h2>
+            <p>$0/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>5GB Space</li>
+              <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+              <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button pb-4 text-center">
+            <a class="btn btn-primary" href="#">Join Free</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Start Up</h2>
+            <p>$10/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>10GB Space</li>
+              <li><i class="fa fa-check-circle"></i>100GB Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button pb-4 text-center">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Business</h2>
+            <p>$50/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>20GB Space</li>
+              <li><i class="fa fa-check-circle"></i>200GB Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+              <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button pb-4 text-center">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h2>Advance</h2>
+            <p>$100/<span>month</span></p>
+          </div>
+          <div class="price-content">
+            <ul>
+              <li><i class="fa fa-check-circle"></i>50GB Space</li>
+              <li><i class="fa fa-check-circle"></i>Unlimit Bandwidth</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Email</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+              <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="price-button pb-4 text-center">
+            <a class="btn btn-primary" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--TESTIMONIALS-->
+<section id="testimonials" class="py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1>Testimonials</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, laborum.</p>
+    </div>
+    <div class="row mt-5 pt-4">
+      <div class="col-md-4 text-center mb-5">
+        <div class="profile">
+          <img class="img-fluid user" src="img/samantha.jpg" alt="samantha">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius doloribus optio quidem possimus atque, nesciunt rem nihil! Reprehenderit iusto ducimus dolor sint sequi, possimus velit consectetur ratione repudiandae repellat fuga.
+          </blockquote>
+          <h3>Samantha <span>Tamil Heroin</span></h3>
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-5">
+        <div class="profile">
+          <img class="img-fluid user" src="img/alia.jpg" alt="alia">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius doloribus optio quidem possimus atque, nesciunt rem nihil! Reprehenderit iusto ducimus dolor sint sequi, possimus velit consectetur ratione repudiandae repellat fuga.
+          </blockquote>
+          <h3>Alia Bhat <span>Indian Heroin</span></h3>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="profile">
+          <img class="img-fluid user" src="img/kajol.jpg" alt="kajol">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius doloribus optio quidem possimus atque, nesciunt rem nihil! Reprehenderit iusto ducimus dolor sint sequi, possimus velit consectetur ratione repudiandae repellat fuga.
+          </blockquote>
+          <h3>Kajol Agarwal <span>Tamil Heroin</span></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Get In Touch-->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h1 class="text-center">Get In Touch</h1>
+    <div class="row">
+      <div class="col-md-6 p-3 p-md-5">
+        <div class="contact-form ">
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="number" placeholder="Phone No.">
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="Email" placeholder="Email Id">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" placeholder="Message" rows="4" cols="30"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" >SEND MESSAGE</button>
+        </div>
+      </div>
+      <div class="col-md-6 contact-info p-0 p-md-5">
+        <div class="follow">
+          <b>Address:</b><i class="fa fa-map-marker"></i>
+          Merul Badda, Road No-11, House no-38,Dhaka
+        </div>
+        <div class="follow">
+          <b>Phone No:</b><i class="fa fa-phone"></i>
+          +8801737841038
+        </div>
+        <div class="follow">
+          <b>Email:</b><i class="fa fa-envelope-o"></i>
+          zillurrahman785@gmail.com
+        </div>
+        <div class="follow">
+          <label>
+            <b>Get Social:</b>
+          </label>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-youtube-play"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<section id="footer" class="py-3">
+  <div class="container text-center">
+    <h4>Copyright &copy; 2019</h4>
+    <p class="mb-0">Made By <i class="fa fa-heart-o"></i> Lelin</p>
+  </div>
+</section>
+
+
+
+
+
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+
+</body>
+</html>
